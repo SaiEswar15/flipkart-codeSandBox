@@ -1,0 +1,21 @@
+.icons-cart
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.icons-cart span{
+    font-weight: bold;
+}
+
+.ShoppingCartIcon
+{
+    color : white;
+}
+
+.counter{
+    color : white;
+}

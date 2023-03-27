@@ -1,0 +1,68 @@
+.dash-con {
+  width: 80%;
+  /* background-color: blue; */
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.product-con {
+  width: 300px;
+  height: 250px;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  border: 1px solid grey;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.product-con:hover {
+  box-shadow: 3px 3px 5px grey;
+  width: 301px;
+  height: 251px;
+}
+
+.title {
+  width: 300px;
+  height: 60px;
+  color: blue;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.desc {
+  color: black;
+  font-size: 15px;
+  height: 33px;
+  overflow: hidden;
+
+  margin-bottom: 15px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  border: 0px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.pic {
+  margin-bottom: 5px;
+}
+
+.link {
+  text-decoration: none;
+}
